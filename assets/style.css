@@ -1,0 +1,49 @@
+@font-face {
+    font-family: 'AllenSans';
+    src: url('assets/fonts/AllenSans-Regular.ttf') format('truetype');
+    font-weight: normal;
+}
+@font-face {
+    font-family: 'AllenSans';
+    src: url('assets/fonts/AllenSans-Bold.ttf') format('truetype');
+    font-weight: bold;
+}
+@font-face {
+    font-family: 'AllenSans';
+    src: url('assets/fonts/AllenSans-Light.ttf') format('truetype');
+    font-weight: 300;
+}
+
+h1, h2 {
+    font-family: 'AllenSans', sans-serif;
+}
+
+body, p, div {
+    font-family: 'AllenSans', sans-serif;
+}
+
+#history-section {
+    background-image: url("https://static.vecteezy.com/system/resources/previews/003/240/746/large_2x/deaf-people-communicating-through-sign-language-free-vector.jpg");
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.history-text {
+    font-size: 20px;
+    font-family: 'AllenSans', sans-serif;
+    white-space: pre-wrap;
+    background-color: #f5b6af;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.main {
+    background-color: #edd5d2;
+}
+
+.element-container button[title="View fullscreen"] {
+    display: none;
+}
