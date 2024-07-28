@@ -1,0 +1,8 @@
+opencv-python
+numpy
+mediapipe
+tensorflow==2.15.0
+pygame
+gtts
+googletrans==4.0.0-rc1
+streamlit
